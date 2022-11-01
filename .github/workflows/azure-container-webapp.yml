@@ -50,7 +50,7 @@ jobs:
       - name: Log in to GitHub container registry
         uses: docker/login-action@v1.10.0
         with:
-          registry: https://hub.docker.com/repository/docker/ayswarya430/app
+          registry: ghcr.io
           username: "ayswarya430"
           password: "dckr_pat_4KFBKr7PNRdJMDFPYq6MWQXResU" 
 
